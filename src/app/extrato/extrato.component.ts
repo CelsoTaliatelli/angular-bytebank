@@ -9,6 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ExtratoComponent implements OnInit {
 
   transferencias:any [];
+  total: any;
 
   constructor(private service: TransferenciaService) { }
 

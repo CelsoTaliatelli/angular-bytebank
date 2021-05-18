@@ -12,7 +12,6 @@ export class TransferenciaService {
   }
 
   adicionar(transferencia:any){
-    console.log(transferencia);
     this.hidratar(transferencia);
     this.listaTranferencias.push(transferencia);
   }
